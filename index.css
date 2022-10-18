@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
+html{
+    padding: 10px;
+}
+*{
+    text-align: center;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+.heading{
+    padding-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color:#ffecde ;
+     border: solid 5px;
+     border-color: pink;
+    border-radius: 10px;
+}
+h1{
+    margin-top: 5px;
+    padding-top: 5px;
+    color: pink;
+    align-items: center;
+}
+
+button {
+    text-align: center;
+    width: 20%;
+    padding: 10px;
+}
+#increment-btn:hover{
+    background-color: pink;
+    border-width: 2px;
+    border-radius: 3px;
+}
+
+
+@media only screen and  (max-width: 390px) and (max-height: 844px)  {
+    #increment-btn{
+
+        text-align: center;
+    }
+    
+    h1{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-bottom: 10px;
+    }
+    h2{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+}
